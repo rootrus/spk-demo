@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign in</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: url('sparkbg.png')
+            no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.35);
+    }
+
+    .login-box {
+        position: relative;
+        z-index: 10;
+        width: 340px;
+        margin: 80px auto;
+        background: #fff;
+        padding: 35px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        border-radius: 3px;
+        text-align: left;
+		margin-top: 20vh;
+    }
+
+    .logo {
+        font-size: 22px;
+        font-weight: bold;
+        color: #e2007a;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        font-size: 26px;
+        margin-bottom: 20px;
+        color: #000;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-bottom: 1px solid #999;
+        font-size: 16px;
+        outline: none;
+        margin-bottom: 15px;
+    }
+
+    .link {
+        font-size: 13px;
+        color: #0067b8;
+        text-decoration: none;
+    }
+
+    .btn-next {
+        margin-top: 25px;
+        width: 100%;
+        background: #0067b8;
+        color: white;
+        border: none;
+        padding: 12px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .footer-text {
+        margin-top: 25px;
+        font-size: 12px;
+        color: #666;
+        text-align: left;
+    }
+
+    .options-btn {
+        width: 340px;
+        margin: 20px auto;
+        padding: 12px;
+        background: white;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        display: block;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .options-btn span {
+        margin-left: 10px;
+    }
+</style>
+</head>
+
+<body>
+<div class="overlay"></div>
+
+<div class="login-box">
+    <div class="logo"><img src="https://aadcdn.msauthimages.net/dbd5a2dd-tpnprihrb-y1obzoyp6cg2xlmo2jcz0kxq5k2aihslw/logintenantbranding/0/bannerlogo?ts=637091199852764128"></div>
+    <div class="title">Sign in</div>
+
+    <input type="text" placeholder="Email, phone, or Skype">
+
+    <a href="#" class="link">Can’t access your account?</a>
+
+    <button class="btn-next">Next</button>
+
+    <div class="footer-text">
+        Spark New Zealand Trading Limited
+    </div>
+</div>
+
+<button class="options-btn">
+    🔍 <span>Sign-in options</span>
+</button>
+
+</body>
+</html>
